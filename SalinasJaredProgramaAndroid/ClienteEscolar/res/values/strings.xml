@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cliente Escolar Jared Salinas</string>
+    <string name="etiqueta_carreras">Carreras</string>
+    <string name="etiqueta_materias">Materias</string>
+    <string name="etiqueta_periodos">Periodos Escolares</string>
+    <string name="etiqueta_boton_nueva_carrera">Nueva Carrera</string>
+    <string name="etiqueta_boton_eliminar_carrera">Eliminar Carrera</string>
+    <string name="etiqueta_boton_modificar_carrera">Modificar Carrera</string>
+    <string name="etiqueta_boton_agregar_carrera">Agregar Carrera</string>
+    
+    <string name="indicador_lista_carreras">Lista de Carreras</string>
+    <string name="indicador_lista_periodos">Lista de Periodos</string>
+    <string name="etiqueta_id_periodo">ID de Periodo Escolar</string>
+    <string name="etiqueta_anio">Año</string>
+    <string name="etiqueta_semestre_periodo">Semestre</string>
+     <string name="etiqueta_boton_nuevo_periodo">Nuevo Periodo Escolar</string>
+    <string name="etiqueta_boton_eliminar_periodo">Eliminar Periodo Escolar</string>
+    <string name="etiqueta_boton_modificar_periodo">Modificar Periodo Escolar</string>
+    <string name="etiqueta_boton_agregar_periodo">Agregar Periodo Escolar</string>
+    <string name="etiqueta_error_anio">El año introducido no es valido en este Sistema</string>
+    
+    <string name="etiqueta_boton_nueva_materia">Nueva Materia</string>
+    <string name="etiqueta_boton_eliminar_materia">Eliminar Materia</string>
+    <string name="etiqueta_boton_modificar_materia">Modificar Materia</string>
+    <string name="etiqueta_boton_agregar_materia">Agregar Materia</string>
+    <string name="indicador_lista_materia">Lista de Materia</string>
+
+    <string-array name="lista_carreras">
+        <item>Ingenieria de Software</item>
+        <item>Ingenieria en Computacion</item>
+        <item>Ingenieria Electronica y de Comunicaciones</item>
+    </string-array>
+    <string-array name="spinnerPeriodos">
+        <item>Enero-Junio</item>
+        <item>Agosto-Diciembre</item>
+        <item>Verano</item>
+        
+        
+    </string-array>
+    <string name="textTitulo">Selecciona el Semestre</string>
+    <string name="carrera_spin">Carreras</string>
+    
+     <string-array name="lista_periodos">
+        <item>2010 Enero-Junio</item>
+     
+    </string-array>
+    
+    <string-array name="lista_materias">
+        <item>Biblia para fallens</item>
+        
+    </string-array>
+      <string name="title_activity_lista_materias">Lista de Materias</string>    
+    <string name="title_activity_detalle_materia">Detalles de la Materia</string>
+	<string name="etiqueta_clave_materia">Clave de la Materia:</string>
+	<string name="etiqueta_nombre_materia">Nombre de la Materia:</string>
+	<string name="etiqueta_semestre_materia">Semestre</string>
+	<string name="etiqueta_boton_regresar_carrera">Regresar a Lista Carreras</string>
+	
+    <string name="etiqueta_confirmacion_eliminacion_materia">¿De verdad quieres eliminar esta materia?</string>
+    
+    
+    <string name="aviso_periodo_eliminada">Periodo Escolar Eliminado</string>
+    <string name="aviso_periodo_no_eliminada">El Periodo Escolar No Pudo Ser Eliminado</string>
+    <string name="aviso_periodo_guardada">Informacion de Periodo Escolar Almacenada con Exito</string>
+    <string name="aviso_periodo_no_guardada">No Se Pudo Almacenar la Informacion del Periodo Escolar</string>
+     <string name="title_activity_lista_periodos">Lista de Periodos Escolares</string>    
+    <string name="title_activity_detalle_periodos">Detalles de los Periodos Escolares</string>
+	<string name="etiqueta_boton_regresar_periodo">Regresar a Lista Periodos</string>
+	 <string name="etiqueta_confirmacion_eliminacion_periodo">¿De verdad quieres eliminar este Periodo Escolar?</string>
+    
+    
+  
+    
+    
+    <string name="aviso_materia_eliminada">Materia Eliminada</string>
+    <string name="aviso_materia_no_eliminada">La Materia No Pudo Ser Eliminada</string>
+    <string name="aviso_materia_guardada">Informacion de Materia Almacenada con Exito</string>
+    <string name="aviso_materia_no_guardada">No Se Pudo Almacenar la Informacion de la Materia</string>
+    
+
+    <string name="title_activity_lista_carreras">Lista de Carreras</string>    
+    <string name="title_activity_detalle_carrera">Detalles de Carrera</string>
+	<string name="etiqueta_clave_carrera">Clave de la Carrera:</string>
+	<string name="etiqueta_nombre_carrera">Nombre de la Carrera:</string>
+	<string name="etiqueta_boton_regresar_materia">Regresar a Lista Materia</string>
+	
+    <string name="etiqueta_confirmacion_eliminacion_carrera">¿De verdad quieres eliminar esta carrera?</string>
+    <string name="etiqueta_titulo_confirmacion_eliminacion">Confirmación de Eliminación</string>
+    <string name="etiqueta_si">Sí</string>
+    <string name="etiqueta_no">No</string>
+    <string name="etiqueta_error_carreras">Todos los campos son obligatorios</string>
+    <string name="aviso_carrera_eliminada">Carrera Eliminada</string>
+    <string name="aviso_carrera_no_eliminada">Carrera No Pudo Ser Eliminada</string>
+    <string name="aviso_carrera_guardada">Informacion de Carrera Almacenada con Exito</string>
+    <string name="aviso_carrera_no_guardada">No Se Pudo Almacenar la Informacion de la Carrera</string>
+		
+	<string name="url_base">http://192.168.0.100:8080/ServidorRESTControlEscolarJSG/webresources/</string>
+	
+</resources>

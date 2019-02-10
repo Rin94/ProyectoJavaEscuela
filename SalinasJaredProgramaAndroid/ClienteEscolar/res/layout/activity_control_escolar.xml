@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/botonCarreras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="muestraListaCarreras"
+        android:text="@string/etiqueta_carreras" />
+
+    <Button
+        android:id="@+id/botonMaterias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="muestraListaMaterias"
+        android:text="@string/etiqueta_materias" />
+
+    <Button
+        android:id="@+id/botonPeriodos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="muestraListaPeriodos"
+        android:text="@string/etiqueta_periodos" />
+	
+</LinearLayout>

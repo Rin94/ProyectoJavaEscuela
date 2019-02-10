@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.uaz.poo2.clienteescolar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+    <uses-permission 
+        android:name="android.permission.INTERNET"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="edu.uaz.poo2.clienteescolar.ControlEscolarActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.uaz.poo2.clienteescolar.ListaCarrerasActivity"
+            android:label="@string/title_activity_lista_carreras" >
+        </activity>
+         <activity
+            android:name="edu.uaz.poo2.clienteescolar.ListaMateriasActivity"
+            android:label="@string/title_activity_lista_materias" >
+        </activity>
+         <activity
+            android:name="edu.uaz.poo2.clienteescolar.ListaPeriodoEscolarActivity"
+            android:label="@string/title_activity_lista_periodos" >
+        </activity>
+         <activity
+            android:name="edu.uaz.poo2.clienteescolar.DetalleMateriaActivity"
+            android:label="@string/title_activity_detalle_materia" >
+        </activity>
+        <activity
+            android:name="edu.uaz.poo2.clienteescolar.DetallePeriodoEscolarActivity"
+            android:label="@string/title_activity_detalle_periodos" >
+        </activity>
+        <activity
+            android:name="edu.uaz.poo2.clienteescolar.DetalleCarreraActivity"
+            android:label="@string/title_activity_detalle_carrera" >
+        </activity>
+    </application>
+
+</manifest>

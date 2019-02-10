@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/etiqueta_clave_materia" />
+
+        <EditText
+            android:id="@+id/clave_materia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/etiqueta_nombre_materia" />
+
+        <EditText
+            android:id="@+id/nombre_materia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/etiqueta_semestre_materia" />
+
+        <EditText
+            android:id="@+id/semestre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+             />
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+       <Spinner
+            android:id="@+id/spinner_carreras"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:entries="@array/lista_carreras"
+          android:text="@string/etiqueta_carreras"
+          android:prompt="@string/carrera_spin"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/clave_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/etiqueta_clave_carrera"
+            android:visible="false" />
+
+        <EditText
+            android:id="@+id/clave_carrera_mat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:visible="false" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/boton_eliminar_materia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="eliminaMateria"
+        android:text="@string/etiqueta_boton_eliminar_materia" />
+
+    <Button
+        android:id="@+id/boton_modificar_materia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="guardaMateria"
+        android:text="@string/etiqueta_boton_modificar_materia" />
+
+    <Button
+        android:id="@+id/boton_regresar_materia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="regresaALista"
+        android:text="@string/etiqueta_boton_regresar_materia" />
+
+</LinearLayout>
